@@ -1,17 +1,18 @@
 {
   "name": "asincronismojs",
   "version": "1.0.0",
-  "description": "trebajar con asincronismo en JS",
+  "description": "trabajar con asincronismo en JS",
   "main": "src/index.js",
   "scripts": {
     "callback": "node src/callback/index.js",
     "callback:challenge": "node src/callback/challenge.js",
-    "callback:challenge2": "node src/callback/challenge2.js"
+    "callback:challenge2": "node src/callback/challenge2.js",
+    "promise": "node src/promise/index.js"
   },
   "keywords": [
     "callback",
     "promise",
-    "asysnc"
+    "async"
   ],
   "author": "",
   "license": "ISC",

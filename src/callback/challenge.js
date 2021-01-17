@@ -16,6 +16,8 @@ function fetchData(url_api, callback) {
      * Generar o escucha lo que va a hacer esa conexion
      */
     xhttp.onreadystatechange = function (event) {
+        console.log(xhttp.readyState ,"ReadyState");
+        console.log(xhttp.status ,"Status");
         //validacion de estado de la peticion
         if (xhttp.readyState === 4) {// request finished and response is ready
             if (xhttp.status === 200) {//"OK"
